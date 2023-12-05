@@ -1,0 +1,14 @@
+C:\Users\cd12\Source\Repos\EXAMENRU3\bin\Debug\net6.0\ExamenRU3.exe
+C:\Users\cd12\Source\Repos\EXAMENRU3\bin\Debug\net6.0\ExamenRU3.deps.json
+C:\Users\cd12\Source\Repos\EXAMENRU3\bin\Debug\net6.0\ExamenRU3.runtimeconfig.json
+C:\Users\cd12\Source\Repos\EXAMENRU3\bin\Debug\net6.0\ExamenRU3.dll
+C:\Users\cd12\Source\Repos\EXAMENRU3\bin\Debug\net6.0\ExamenRU3.pdb
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.AssemblyInfoInputs.cache
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.AssemblyInfo.cs
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.csproj.CoreCompileInputs.cache
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.dll
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\refint\ExamenRU3.dll
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.pdb
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ExamenRU3.genruntimeconfig.cache
+C:\Users\cd12\Source\Repos\EXAMENRU3\obj\Debug\net6.0\ref\ExamenRU3.dll

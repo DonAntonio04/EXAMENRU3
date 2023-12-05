@@ -61,25 +61,42 @@ namespace ExamenRU3
             }
         }
 
-        public void buscarMarca()
+        public void buscarMarca(string Marcabuscada)
         {
-            int izquierdo = 0;
+            int izquierda = 0;
             int derecho = Longitud() - 1;
             bool encontrado = false;
 
-            while(izquierdo < derecho)
+            while(izquierda <= derecho)
             {
                 int contador = 0;
-                int medio = izquierdo + (derecho - izquierdo) / 2;
+                int medio = izquierda + (derecho - izquierda) / 2;
                 Nodo actual = _cabeza;
                 while (contador < medio && actual != null)
                 {
                     contador++;
                     actual = actual.getSiguiente();
                 }
-
+                if (actual != null && actual.getDatos().Marca == Marcabuscada)
+                {
+                    Console.WriteLine($"La persona con la edad {Marcabuscada} se encuentra en la posición {medio}.");
+                    encontrado = true;
+                    break;
+                }
+                else if (actual != null && actual.getDatos().Marca < Marcabuscada)
+                {
+                    // Si la edad buscada es mayor, buscar en la mitad derecha
+                    izquierda = medio + 1;
+                }
+                else
+                {
+                    izquierda = medio - 1;
+                }
             }
-
+            if(!encontrado)
+            {
+                Console.WriteLine($"La marca {Marcabuscada} no se encuentra en la lista");
+            }
 
 
         }
